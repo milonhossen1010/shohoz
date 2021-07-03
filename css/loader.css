@@ -1,0 +1,22 @@
+.load_img-payment {
+    height: auto;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    text-align: center;
+    background: rgba(199, 187, 187, 0.50);
+    display: none;
+}
+.load_img-payment  .img-responsive {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    width: 80px;
+    position:relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
